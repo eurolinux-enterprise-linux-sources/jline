@@ -30,7 +30,7 @@
 
 Name:           jline
 Version:        1.0
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Java library for reading and editing user input in console applications
 License:        BSD
 URL:            http://jline.sourceforge.net/
@@ -123,6 +123,9 @@ cp -pr examples %{buildroot}%{_datadir}/%{name}
 %doc LICENSE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-8
+- Mass rebuild 2013-12-27
+
 * Mon Aug 26 2013 Michal Srb <msrb@redhat.com> - 1.0-7
 - Migrate away from mvn-rpmbuild (Resolves: #997501)
 
